@@ -1,0 +1,24 @@
+{
+  "project_info": {
+    "project_number": "000000000000",
+    "project_id": "replace-with-your-project-id",
+    "storage_bucket": "replace-with-your-project-id.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:000000000000:android:replace-with-your-app-id",
+        "android_client_info": {
+          "package_name": "com.portfolio.notelensai"
+        }
+      },
+      "api_key": [
+        {
+          "current_key": "replace-with-the-key-from-firebase-console"
+        }
+      ]
+    }
+  ],
+  "configuration_version": "1"
+}
+
