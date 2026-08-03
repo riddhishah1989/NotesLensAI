@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="760" viewBox="0 0 1440 760" role="img" aria-labelledby="title desc">
+  <title id="title">NoteLens AI three-screen flow</title>
+  <desc id="desc">Three Android phone mockups showing note selection, extracted text review, and an AI summary.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F2F0FF"/>
+      <stop offset="1" stop-color="#FFF8EB"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#29254D" flood-opacity=".17"/>
+    </filter>
+  </defs>
+  <rect width="1440" height="760" rx="36" fill="url(#bg)"/>
+  <circle cx="94" cy="84" r="54" fill="#5B5FEF" opacity=".08"/>
+  <circle cx="1358" cy="670" r="88" fill="#FFCA6A" opacity=".18"/>
+  <text x="720" y="58" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#1D1B20">NoteLens AI · App flow</text>
+  <text x="720" y="88" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#65636D">Scan a note, review the text, and get a concise Gemini summary</text>
+
+  <!-- Phone 1 -->
+  <g transform="translate(115 120)" filter="url(#shadow)">
+    <rect width="340" height="590" rx="42" fill="#18171C"/>
+    <rect x="9" y="9" width="322" height="572" rx="35" fill="#F8F7FC"/>
+    <rect x="126" y="18" width="88" height="18" rx="9" fill="#18171C"/>
+    <text x="170" y="68" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#1D1B20">NoteLens AI</text>
+    <rect x="28" y="94" width="88" height="26" rx="13" fill="#E7E7FF"/>
+    <text x="72" y="112" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#5B5FEF">STEP 1 OF 3</text>
+    <text x="28" y="153" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#1D1B20">Select your note</text>
+    <text x="28" y="178" font-family="Arial, sans-serif" font-size="13" fill="#65636D">Take a clear photo or choose one.</text>
+    <rect x="28" y="204" width="284" height="220" rx="24" fill="#E7E7FF"/>
+    <rect x="112" y="244" width="116" height="142" rx="8" fill="#FFFFFF"/>
+    <path d="M130 274h80M130 294h80M130 314h64M130 334h75" stroke="#A9AAE8" stroke-width="6" stroke-linecap="round"/>
+    <path d="M226 352l5 12 12 5-12 5-5 12-5-12-12-5 12-5z" fill="#FFCA6A"/>
+    <rect x="28" y="444" width="134" height="42" rx="21" fill="none" stroke="#5B5FEF" stroke-width="2"/>
+    <text x="95" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#5B5FEF">Camera</text>
+    <rect x="178" y="444" width="134" height="42" rx="21" fill="none" stroke="#5B5FEF" stroke-width="2"/>
+    <text x="245" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#5B5FEF">Gallery</text>
+    <rect x="28" y="510" width="284" height="48" rx="24" fill="#5B5FEF"/>
+    <text x="170" y="540" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">Extract Text</text>
+  </g>
+
+  <!-- Connector -->
+  <g fill="none" stroke="#9B9DDE" stroke-width="3" stroke-linecap="round">
+    <path d="M482 414h54"/>
+    <path d="M526 404l12 10-12 10"/>
+  </g>
+
+  <!-- Phone 2 -->
+  <g transform="translate(550 120)" filter="url(#shadow)">
+    <rect width="340" height="590" rx="42" fill="#18171C"/>
+    <rect x="9" y="9" width="322" height="572" rx="35" fill="#F8F7FC"/>
+    <rect x="126" y="18" width="88" height="18" rx="9" fill="#18171C"/>
+    <text x="170" y="68" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#1D1B20">Review text</text>
+    <text x="28" y="67" font-family="Arial, sans-serif" font-size="24" fill="#1D1B20">‹</text>
+    <rect x="28" y="94" width="88" height="26" rx="13" fill="#E7E7FF"/>
+    <text x="72" y="112" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#5B5FEF">STEP 2 OF 3</text>
+    <text x="28" y="153" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#1D1B20">Check the text</text>
+    <text x="28" y="178" font-family="Arial, sans-serif" font-size="13" fill="#65636D">Fix any OCR mistakes first.</text>
+    <rect x="28" y="204" width="284" height="275" rx="18" fill="#FFFFFF" stroke="#777680"/>
+    <text x="44" y="230" font-family="Arial, sans-serif" font-size="11" fill="#65636D">Extracted note</text>
+    <text x="44" y="264" font-family="Arial, sans-serif" font-size="14" fill="#1D1B20">
+      <tspan x="44" dy="0">Photosynthesis converts light</tspan>
+      <tspan x="44" dy="23">energy into chemical energy.</tspan>
+      <tspan x="44" dy="23">Plants absorb carbon dioxide</tspan>
+      <tspan x="44" dy="23">and release oxygen.</tspan>
+    </text>
+    <text x="280" y="460" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#65636D">105 characters</text>
+    <rect x="28" y="510" width="284" height="48" rx="24" fill="#5B5FEF"/>
+    <text x="170" y="540" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">✦  Generate Summary</text>
+  </g>
+
+  <!-- Connector -->
+  <g fill="none" stroke="#9B9DDE" stroke-width="3" stroke-linecap="round">
+    <path d="M917 414h54"/>
+    <path d="M961 404l12 10-12 10"/>
+  </g>
+
+  <!-- Phone 3 -->
+  <g transform="translate(985 120)" filter="url(#shadow)">
+    <rect width="340" height="590" rx="42" fill="#18171C"/>
+    <rect x="9" y="9" width="322" height="572" rx="35" fill="#F8F7FC"/>
+    <rect x="126" y="18" width="88" height="18" rx="9" fill="#18171C"/>
+    <text x="170" y="68" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#1D1B20">Your summary</text>
+    <text x="28" y="67" font-family="Arial, sans-serif" font-size="24" fill="#1D1B20">‹</text>
+    <rect x="28" y="94" width="88" height="26" rx="13" fill="#E7E7FF"/>
+    <text x="72" y="112" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#5B5FEF">STEP 3 OF 3</text>
+    <text x="28" y="153" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#1D1B20">Summary ready</text>
+    <text x="28" y="178" font-family="Arial, sans-serif" font-size="13" fill="#65636D">Copy, share, or scan another.</text>
+    <rect x="28" y="204" width="284" height="232" rx="24" fill="#FFFFFF"/>
+    <text x="48" y="242" font-family="Arial, sans-serif" font-size="14" fill="#1D1B20">
+      <tspan x="48" dy="0">• Photosynthesis converts light</tspan>
+      <tspan x="62" dy="21">into chemical energy.</tspan>
+      <tspan x="48" dy="34">• Plants use carbon dioxide and</tspan>
+      <tspan x="62" dy="21">release oxygen.</tspan>
+      <tspan x="48" dy="34">• Chlorophyll captures light.</tspan>
+    </text>
+    <rect x="28" y="456" width="134" height="42" rx="21" fill="#E7E7FF"/>
+    <text x="95" y="482" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#4649C4">Copy</text>
+    <rect x="178" y="456" width="134" height="42" rx="21" fill="#E7E7FF"/>
+    <text x="245" y="482" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#4649C4">Share</text>
+    <rect x="28" y="510" width="284" height="48" rx="24" fill="#5B5FEF"/>
+    <text x="170" y="540" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">↻  Start Over</text>
+  </g>
+</svg>
+
